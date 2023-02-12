@@ -1,0 +1,26 @@
+.die-face{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    border:none;
+    box-shadow: 5px 5px 5px 2px gray;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.die-face > img{ 
+    height: 36px;
+    width: 36px;
+    border:none;
+}
+
+.hide{
+    display: none;
+}
+
+.noHide{
+    color:black
+}

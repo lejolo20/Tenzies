@@ -1,0 +1,86 @@
+body{
+  margin:0;
+  padding:0;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./Dice.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 90% ;
+  min-width: 100px;
+  max-width: 800px;
+  height: 400px;
+  background-color:  #00000052;
+  backdrop-filter: blur(20px);
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 20px;
+  z-index: 0;
+  
+}
+
+.dice-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  background-color: #f5f6f970;
+  backdrop-filter: blur(10px);
+  width: 80%;
+  min-height: 80%;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.dice-container>h1{
+  margin: 10px 0px 30px;
+} 
+
+.dice-container>p{
+  margin: -30px 20px 0;
+}
+
+.dice-container>button{
+  margin:0 auto 10px;
+  width:150px;
+  border:none;
+  height: 50px;
+  background-color: #5035FF;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color:#f5f6f9;
+  border-radius:10px;
+  cursor: pointer;
+}
+
+.die-container{
+  /*border: 1px solid red;*/
+  display:grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin:0 30px;
+  height:100%;
+}
+
+.numberRolls{
+  /*border:2px solid red;*/
+  width: 60%;
+  margin: 0 auto;
+  
+}
